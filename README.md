@@ -1,5 +1,5 @@
 # DAG-matrix-generator-from-featureset
-To explore all the combination of overall IoT system and automate the task, a java code DAG Adjacency Matrix Generator is written, which is described in Algorithm below
+To explore all the combination of overall IoT system and automate the task, a java code DAG Adjacency Matrix Generator is written, which is described in Algorithm below:
 
 Input: User required cost and accuracy values: user_cost_score and user_accuracy_score; Proximity dataset, Temperature dataset and Location dataset
 Output: Adjacency matrices of respective DAGs i.e. recommendations of the required system.
@@ -19,3 +19,6 @@ Output: Adjacency matrices of respective DAGs i.e. recommendations of the requir
 9) Call function generate_adjacency_matrix (no_of_edges, edge_list_array), it output adjacency_matrix[][] of the resulted directed graph.
 10) Repeat from step 2 until all tuple combination are selected.
 
+
+
+Note: EdgelistCreation.java is main class
